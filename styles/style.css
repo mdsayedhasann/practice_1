@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* ///////         Header CSS CODE START         /////// */
+.header_main {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #f9f7eb;
+    padding: 15px 0;
+    box-shadow: 0px 5px 25px #ddd;
+}
+
+.header_nav {
+    background-color: ;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    padding: 30px 0;
+}
+
+.item {
+    padding: 10px 25px;
+    background-color: #f8f4d6;
+    margin-right: 15px;
+    border-radius: 5px 5px 15px 5px;
+    cursor: pointer;
+}
+/* ///////         Header CSS CODE END         /////// */
+
+
+
+
+
+
+/* ///////         Banner CSS Code Start         /////// */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/background.png), linear-gradient(75deg, #0a0a0a, #2d2d2d);
+    height: 100vh;
+    color: #fff;
+    
+
+}
+.banner-text h2{
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0px;
+}
+.banner-text p{
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0px;
+}
+button{
+    background-color: #FF0000;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 2px 3px #fff;
+    margin-top: 20px;
+    border-radius: 0 0 10px 0;
+}
+.banner-image img{
+    width: 100ps;
+
+}
+
+/* ///////         Banner CSS Code END         /////// */
